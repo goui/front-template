@@ -16,7 +16,7 @@ public interface NetworkService {
     /**
      * Put endpoints here, like:
      */
-    @GET("user/getAllUsers")
+    @GET("user/getMessage")
     Observable<String> getMessage();
 
     /**
